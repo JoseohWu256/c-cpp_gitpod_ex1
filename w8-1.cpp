@@ -19,6 +19,6 @@ int f(int n){
 }
 #endif
 int main(){
-    cout<<"sum = "<<f(1)<<endl;
+    cout<<"sum = "<<f(5)<<endl;
     return 0;
 }
