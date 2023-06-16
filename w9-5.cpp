@@ -14,8 +14,13 @@ int main()
     ii=sizeof(arr)/sizeof(arr[0]);
     i=arr;
     for(cc=0;cc<ii;cc++){
-        printf("%d:%d\n",cc,*i);
+        printf("%d:%d ",cc,*i);
         i++;
+    }
+    printf("\n");
+    i=arr;
+    for(cc=0;cc<ii;cc++){
+        printf("%d:%d ",cc,arr[cc]);
     }
     printf("\n");
     return 0;
